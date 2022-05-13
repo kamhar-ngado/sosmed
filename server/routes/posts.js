@@ -1,12 +1,9 @@
 import express from "express";
 
+import { getPosts } from "../controllers/posts.js";
 const router = express.Router();
 
-let name = "tata ta ta....";
-let result = name.toUpperCase();
 
-router.get("/", (req, res) => {
-  res.send(`${result}`);
-});
+router.get("/", getPosts);
 
 export default router;
