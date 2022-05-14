@@ -6,9 +6,11 @@ import memories from "./images/memories.png";
 
 import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
-
+// import useStyles from "./style.js";
 
 const App = () => {
+  // const classes = useStyles();
+
   return (
     <Container>
       <AppBar position="static" color="inherit">
