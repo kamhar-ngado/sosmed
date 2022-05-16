@@ -6,15 +6,15 @@ import memories from "./images/memories.png";
 
 import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
-// import useStyles from "./style.js";
+import useStyles from "./styles.js";
 
 const App = () => {
-  // const classes = useStyles();
+  const classes = useStyles();
 
   return (
     <Container>
       <AppBar position="static" color="inherit">
-        <Typography variant="h2" align="center">
+        <Typography className={classes.heading} variant="h2" align="center">
           Sosmed
         </Typography>
         <img src={memories} alt="icon" height="100" width="600" />
