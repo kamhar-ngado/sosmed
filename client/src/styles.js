@@ -1,5 +1,4 @@
 import { makeStyles } from "@mui/styles";
-// import { makeStyles } from "@mui/material/styles";
 
 export default makeStyles(() => ({
   appBar: {
@@ -14,6 +13,7 @@ export default makeStyles(() => ({
     color: "rgba(0,183,255, 1)",
   },
   image: {
-    marginLeft: "15px",
+    marginLeft: "300px",
+    marginTop: "-70px",
   },
 }));
